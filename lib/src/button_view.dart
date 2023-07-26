@@ -27,7 +27,7 @@ class SignInButton extends StatelessWidget {
   final String? text;
 
   /// overrides the default font size
-  final double? fontSize;
+  final double fontSize;
 
   /// overrides the default button padding
   final EdgeInsets padding;
@@ -49,7 +49,7 @@ class SignInButton extends StatelessWidget {
     this.padding = EdgeInsets.zero,
     this.shape,
     this.text,
-    this.fontSize,
+    this.fontSize = 14,
     this.elevation = 2.0,
     this.clipBehavior = Clip.none,
   })  : assert(
